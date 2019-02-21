@@ -1,0 +1,49 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#fff;
+    color:#000;
+    font-size:14px;
+    font-family: 'Microsoft yahei',Verdana, Arial, Helvetica, sans-serif;
+}
+td,th,caption {
+    font-size:14px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight:normal; font-size:100%;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style:normal; font-weight:normal;
+}
+a,a:hover{
+    text-decoration:none;
+}
+img{
+    border:none;
+}
+a img{
+    display: block;
+}
+ol,ul,li {
+    list-style:none;
+}
+li{
+    vertical-align:top;
+}
+input, textarea, select, button,option {
+    font:14px 'Microsoft yahei',Verdana,Helvetica,Arial,sans-serif; 
+    outline: none;
+    }
+table {
+    border-collapse:collapse;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height:0;
+    clear:both;
+    visibility: hidden;
+}
+.clearfix { *zoom:1; }

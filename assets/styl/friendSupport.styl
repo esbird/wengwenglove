@@ -1,0 +1,91 @@
+.banner
+  width 100%
+  height 275px
+  background url('~/static/support-bg.png') top center/cover no-repeat;
+.support-wrap
+  width 350px
+  height 122px
+  background #fff
+  border-radius 10px
+  display flex
+  flex-direction column
+  align-items  center
+  justify-content space-around
+  margin -40px auto 0
+  box-shadow 2px 2px 6px #AEAEAE
+  padding 14px 0
+  p
+    font-size 16px
+    text-align center
+    color #F3B2AD
+  .btn-wrap
+    width 292px
+    display flex
+    justify-content space-between
+    button 
+      width 121px
+      height 40px
+      border-radius 20px
+      color #ffffff
+      background #F3B2AD
+      font-size 16px
+      border none
+  .percentage-box
+    width 292px
+    height 14px
+    border 2px solid #F3B2AD
+    border-radius 7px
+    padding 2px
+    .percentage
+        width 10%
+        height 10px
+        border-radius 5px
+        background #F3B2AD
+.support-record
+  ul
+    width: 100%
+    padding 0 13px
+    li
+      width: 100%
+      height 67px
+      display flex
+      align-items: center
+      position relative
+      border-bottom: 1.2px solid #f2f2f2
+      img 
+        width: 45px
+        height 45px
+        border-radius: 50%
+      .text-port
+        font-size: 12px
+        margin-left: 15px
+      span 
+        position absolute
+        right 0
+        top: 50%
+        transform: translate3d(0,-50%,0)
+        color: red
+        font-size: 16px
+
+  .title
+    font-size: 16px
+    position relative
+    text-align: center
+    width: 284px
+    margin: 18px auto 0
+    &:before
+      content: ''
+      width: 100px
+      height 1.2px
+      background #000000
+      position absolute
+      top: 50%
+      left: 0
+    &:after
+      content:''
+      width 100px
+      height 1.2px
+      background #000
+      position absolute
+      top 50%
+      right: 0
