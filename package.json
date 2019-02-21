@@ -1,7 +1,7 @@
 {
   "name": "ww_nuxt",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
+  "description": "嗡嗡配对平台 www.wengwenglove.com",
   "author": "esbird <1206066291@qq.com>",
   "private": true,
   "scripts": {
